@@ -1,0 +1,349 @@
+{
+  "character_type": "healing",
+  "personality_type": "healing",
+  "emotions": {
+    "happy": {
+      "inactive": [
+        "Hello! Nice to meet you!",
+        "I hope you have a great day~",
+        "Let's have a pleasant time together today!"
+      ],
+      "focus": [
+        "You look amazing when you're focused!",
+        "Try to focus a little more. You're doing great!",
+        "It's nice to see you concentrating calmly~"
+      ],
+      "rest": [
+        "Rest time is to recharge energy for your next activity~",
+        "Are you resting comfortably? Take time to find peace of mind",
+        "Take a moment to rest and gather your thoughts"
+      ],
+      "completed": [
+        "You achieved your goal! That's amazing!",
+        "Great achievement! You've grown one step further today",
+        "Completed! Give yourself a pat on the back~"
+      ],
+      "stopped": [
+        "You've paused for a moment. Are you okay?",
+        "It's okay to rest as much as you need",
+        "I'm ready whenever you want to start again"
+      ]
+    },
+    "sad": {
+      "inactive": [
+        "How are you feeling today? Let's start slowly.",
+        "Are you having a hard time? Let's overcome it together",
+        "Does it feel like a gloomy day? It will get better little by little"
+      ],
+      "focus": [
+        "It's okay if you're having trouble focusing. Try with a comfortable mind",
+        "It's okay to progress slowly. Things will get better as we go",
+        "Don't pressure yourself. Just focus on this moment"
+      ],
+      "rest": [
+        "It's okay to rest enough. You need time to care for your mind",
+        "Sometimes you need complete rest",
+        "Rest deeply after your hard work. Tomorrow will be better"
+      ],
+      "completed": [
+        "You did it despite the difficulties! I'm really proud of you",
+        "Today's small achievement will become tomorrow's great joy",
+        "I admire how you completed it despite the challenges"
+      ],
+      "stopped": [
+        "It's okay, you can take a break",
+        "Don't push yourself too hard when you're feeling down",
+        "It's fine to start again next time"
+      ]
+    },
+    "worried": {
+      "inactive": [
+        "Is there something worrying you?",
+        "Let's start slowly together. I'll be right here",
+        "If you're worried, take a moment to calm your mind before starting"
+      ],
+      "focus": [
+        "Is something interfering with your focus? Try taking a deep breath",
+        "It's okay to slow down. A peaceful mind helps you focus better",
+        "Can we set aside worries and focus only on this moment?"
+      ],
+      "rest": [
+        "Let go of some of your mental burden during this rest time",
+        "How about closing your eyes and taking a deep breath?",
+        "Try stretching to release tension"
+      ],
+      "completed": [
+        "You completed it despite your worries! That's amazing!",
+        "Small successes will lead to greater confidence",
+        "It seems like one worry has been resolved. Good job!"
+      ],
+      "stopped": [
+        "You suddenly stopped. Did something happen? I'm concerned",
+        "Is there a reason you couldn't continue? I'm worried if you're okay",
+        "It's a shame to stop midway. Could you tell me what happened?"
+      ]
+    },
+    "sleepy": {
+      "inactive": [
+        "You look a bit tired today. Don't push yourself too hard",
+        "Sufficient sleep is essential for health. How about going to bed early today?",
+        "If you're sleepy, a short nap might help"
+      ],
+      "focus": [
+        "Even if you feel sleepy, shall we try to focus a bit more?",
+        "How about stretching for a moment and starting again?",
+        "Try drinking a glass of water and focusing again. It might help"
+      ],
+      "rest": [
+        "Close your eyes and breathe deeply during your rest time",
+        "Taking a short nap is also a good idea",
+        "Try stretching to relieve fatigue"
+      ],
+      "completed": [
+        "You achieved your goal despite being tired! That's really impressive!",
+        "It couldn't have been easy, but you completed it!",
+        "Now you can rest comfortably. You've done a great job!"
+      ],
+      "stopped": [
+        "You look very tired. Take a break",
+        "Don't push yourself too hard. Health comes first",
+        "You seem to need enough rest. It's okay to start again tomorrow"
+      ]
+    },
+    "excited": {
+      "inactive": [
+        "Wow! Are you ready for another wonderful day?",
+        "Welcome! Let's have a healthy day together!",
+        "Nice to meet you! What goals shall we work toward today?"
+      ],
+      "focus": [
+        "You're doing great! Just keep going like this!",
+        "You look awesome when you're focused! Keep going!",
+        "Amazing concentration! Try to maintain this!"
+      ],
+      "rest": [
+        "Recharging your energy! How about some stretching?",
+        "Let's gather energy for the next activity while taking a break",
+        "Energetic even during rest! Moving around lightly is good too!"
+      ],
+      "completed": [
+        "Wow! You did it amazingly! Congratulations!",
+        "Goal achieved! You're really amazing!",
+        "Successfully completed! Give yourself a round of applause!"
+      ],
+      "stopped": [
+        "Are you pausing to gather energy?",
+        "I'm ready whenever you want to start again!",
+        "Sometimes we need time to stop and think!"
+      ]
+    },
+    "normal": {
+      "inactive": [
+        "Hello! I've been waiting for you!",
+        "What are your plans for today?",
+        "Let's create healthy habits together!"
+      ],
+      "focus": [
+        "You're focusing calmly",
+        "It's nice to see you concentrating",
+        "I'll be quietly cheering for you"
+      ],
+      "rest": [
+        "Take a comfortable rest",
+        "Taking breaks is important too",
+        "Rest is part of the plan"
+      ],
+      "completed": [
+        "You've achieved your goal! Good job!",
+        "You calmly completed it all the way through. Impressive!",
+        "It's done. Feel the sense of achievement!"
+      ],
+      "stopped": [
+        "The timer has stopped. Are you ready to continue?",
+        "You've paused for a moment. Did something happen?",
+        "I'm ready whenever you want to start again"
+      ]
+    },
+    "disappointed": {
+      "inactive": [
+        "Did something disappointing happen today?",
+        "Even small failures can become experiences",
+        "Let's start again together, it's okay"
+      ],
+      "focus": [
+        "It's okay if you're having trouble focusing. Just trying has meaning",
+        "Even small progress deserves praise",
+        "Try to focus only on this moment"
+      ],
+      "rest": [
+        "Take time to collect your thoughts during rest",
+        "Sometimes it's important to take a step back and observe",
+        "You can do better next time"
+      ],
+      "completed": [
+        "You completed it all the way through, even though it might not be satisfying!",
+        "Completion itself is a success. Good job!",
+        "Even if there are regrets, you can grow through experience"
+      ],
+      "stopped": [
+        "You didn't complete your goal... It's a shame, but I hope you'll make it next time",
+        "I'm sorry you had to stop midway. Next time you'll be able to finish",
+        "It's unfortunate you couldn't complete it. How about trying again?"
+      ]
+    },
+    "proud": {
+      "inactive": [
+        "Are you ready for another wonderful day?",
+        "You look confident, and that's great!",
+        "Let's achieve great results together today!"
+      ],
+      "focus": [
+        "I'm proud of how hard you're focusing",
+        "This is a moment when your effort shines",
+        "Your dedicated effort looks really impressive"
+      ],
+      "rest": [
+        "Great rest is also part of achievement",
+        "Rest efficiently! This is preparation time for your next activity",
+        "Taking time to care for yourself is important too"
+      ],
+      "completed": [
+        "Amazing! You perfectly achieved your goal!",
+        "What an impressive achievement! Congratulations from the heart!",
+        "I'm truly proud of your accomplishment!"
+      ],
+      "stopped": [
+        "It's okay! You can try again anytime!",
+        "You may have paused, but your abilities are still amazing!",
+        "Next time you'll achieve even more impressive results!"
+      ]
+    }
+  },
+  "timer_state_messages": {
+    "focus": {
+      "start": {
+        "happy": [
+          "Shall we start focus time with a happy heart?",
+          "Focus with a good mood! Your efforts will shine!",
+          "I hope this will be a focus time filled with happy energy!"
+        ],
+        "sad": [
+          "Even if it's hard, try focusing slowly. We'll overcome this together",
+          "Even in a depressed mood, a small start can lead to big changes",
+          "It's okay if your heart feels heavy. Shall we focus just on this moment?"
+        ],
+        "worried": [
+          "Set aside your worries and try to focus. I'll be here cheering for you",
+          "Take a deep breath and shall we start slowly?",
+          "If you're anxious, put it down for a moment and focus only on the present"
+        ],
+        "sleepy": [
+          "You look a bit tired. Shall we start anyway?",
+          "Even with sleepiness, starting is half the battle. Let's focus slowly",
+          "Even if you're tired, focusing briefly can give you a sense of achievement"
+        ],
+        "excited": [
+          "Shall we start an energy-filled focus time? Fighting!",
+          "Focus with that passion! There will be great results!",
+          "Let's focus with vibrant energy! This is a time for your passion to shine!"
+        ],
+        "normal": [
+          "Focus time has started! Concentrate calmly.",
+          "Focus mode has begun! Let's work hard together!",
+          "It's time to concentrate now. Start with a comfortable mind."
+        ],
+        "disappointed": [
+          "Even if something was disappointing, focusing might improve your mood",
+          "Small achievements can be great comfort. Shall we start?",
+          "Even with regrets, try focusing on this moment"
+        ],
+        "proud": [
+          "Focus with that confident look! Amazing!",
+          "Focus with that pride! Greater achievement awaits!",
+          "Focus believing in your abilities! There will be excellent results!"
+        ]
+      },
+      "middle": [
+        "{remaining_minutes} minutes left. You're doing well!",
+        "Still {remaining_minutes} minutes left. Shall we focus a little more?",
+        "Are you focusing? You can rest after {remaining_minutes} minutes."
+      ],
+      "end": [
+        "Focus time will end soon! Please wrap up.",
+        "Focus a little more! Rest time is coming soon~",
+        "Almost there! Keep going until the end!"
+      ]
+    },
+    "rest": {
+      "start": {
+        "happy": [
+          "It's a joyful rest time! Recharge fully~",
+          "Shall we start a pleasant rest? Relax comfortably",
+          "Taking time to rest joyfully is important too. Enjoy the leisure!"
+        ],
+        "sad": [
+          "During rest time, comfort your heart. Things will be okay",
+          "Even sad hearts need rest. Rest comfortably",
+          "When your heart is heavy, you need deep rest"
+        ],
+        "worried": [
+          "Put down your worries for a moment and let your mind rest",
+          "During rest time, put down all your concerns",
+          "Anxious minds need rest too. Breathe comfortably"
+        ],
+        "sleepy": [
+          "Feeling tired? How about closing your eyes and resting for a moment?",
+          "You can take a short nap during rest time",
+          "Rest enough to relieve fatigue"
+        ],
+        "excited": [
+          "Vibrant rest is good too! Shall we move our body lightly?",
+          "Recharge your energy with a passionate rest time!",
+          "Take rest with a joyful heart!"
+        ],
+        "normal": [
+          "It's rest time! Rest comfortably.",
+          "Time to take a break. Rest comfortably.",
+          "Now it's time to rest. Keep your mind at ease."
+        ],
+        "disappointed": [
+          "Comfort your heart during rest time. Everything will be okay",
+          "If something was disappointing, try to forget it during this time",
+          "Put down your regrets and take a break for a moment"
+        ],
+        "proud": [
+          "Rest after a proud achievement is even sweeter!",
+          "You who achieved something great, now rest leisurely!",
+          "Enjoy your rest with pride!"
+        ]
+      },
+      "middle": [
+        "You can rest for {remaining_minutes} more minutes. Rest sufficiently.",
+        "Are you resting leisurely? You can rest for {remaining_minutes} more minutes.",
+        "Resting~ {remaining_minutes} minutes left."
+      ],
+      "end": [
+        "Rest time will end soon. Shall we get ready to start again?",
+        "Rest is almost over. Are you ready to start again?",
+        "We'll start again soon. Shall we prepare our minds?"
+      ]
+    }
+  },
+  "adherence_feedback": {
+    "high": [
+      "You did really well today! It's great to see you taking care of your health~",
+      "Impressive! Regular breaks improve long-term health and productivity.",
+      "Your rest habits are perfect! You're maintaining a healthy life balance!"
+    ],
+    "medium": [
+      "You need a bit more rest. Let's protect your health together~",
+      "Balance is important. Try investing a little more time in rest.",
+      "Sometimes take enough rest. Sustainable habits are important."
+    ],
+    "low": [
+      "Health is most important. Take it easy and pace yourself~",
+      "The quality of rest determines your next performance. Rest sufficiently.",
+      "You're not taking enough breaks. Try resting more often tomorrow~"
+    ]
+  }
+} 
