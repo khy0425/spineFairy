@@ -1,0 +1,505 @@
+{
+  "@@locale": "en",
+  "appTitle": "Spine Fairy",
+  "welcomeMessage": "Welcome to Spine Fairy",
+  "selectLanguage": "Select Language",
+  "continueButton": "Continue",
+  "enterName": "Enter your name",
+  "next": "Next",
+  "languageSelectionTitle": "Language Selection",
+  "characterSelectionTitle": "Character Selection",
+  "startButton": "Start",
+  "focusMode": "Focus Mode",
+  "restMode": "Rest Mode",
+  "startFocus": "Start Focus",
+  "startRest": "Start Rest",
+  "settings": "Settings",
+  "statistics": "Statistics",
+  "language": "Language",
+  "notifications": "Notifications",
+  "theme": "Theme",
+  "about": "About",
+  "postureTips": "Posture Tips",
+  "goodbye": "Goodbye, see you next time!",
+  "userName": "User Name",
+  "changeCharacter": "Change Character",
+  "currentStreak": "Current Streak",
+  "totalFocusTime": "Total Focus Time",
+  "restTimeTaken": "Rest Time Taken",
+  "postureCorrectionCount": "Posture Corrections",
+  "korean": "Korean",
+  "english": "English",
+  "japanese": "Japanese",
+  "chinese": "Chinese",
+  "characterTypeHealing": "Healing",
+  "characterTypeCute": "Cute",
+  "characterTypeEnergetic": "Energetic",
+  "characterTypeCool": "Cool",
+  "characterTypeNature": "Nature",
+  "characterTypeCosmic": "Cosmic",
+  "characterTypeTech": "Tech",
+  "save": "Save",
+  "cancel": "Cancel",
+  "minutes": "minutes",
+  "hours": "hours",
+  "seconds": "seconds",
+  "days": "days",
+  "pauseButton": "Pause",
+  "resumeButton": "Resume",
+  "resetButton": "Reset",
+  "appName": "Spine Fairy",
+  "focus": "Focus",
+  "rest": "Rest",
+  "startTimer": "Start Timer",
+  "pauseTimer": "Pause",
+  "resumeTimer": "Resume",
+  "stopTimer": "Stop",
+  "minutesValue": "{minutes} min",
+  "selectLanguage": "Select Language",
+  "apply": "Apply",
+  "name": "Name",
+  "continueBtnText": "Continue",
+  "characterSelection": "Character Selection",
+  "advice": "Advice",
+  "ready": "Ready",
+  "focusing": "Focusing",
+  "resting": "Resting",
+  "fairyAdvice": "Fairy's Advice",
+  "thankYou": "Thank you!",
+  "appInfo": "App Info",
+  "appVersion": "Spine Fairy v1.0.0",
+  "nameInputHint": "Enter your name",
+  "nameRequired": "Please enter your name",
+  "notificationDesc": "Get notifications when timer ends",
+  "timerSettings": "Timer Settings",
+  "focusTimeMins": "Focus Time (minutes)",
+  "restTimeMins": "Rest Time (minutes)",
+  "settingsSaved": "Settings saved",
+  "healingFairy": "Healing Fairy",
+  "focusTimeMinutes": "Focus: {minutes} min",
+  "restTimeMinutes": "Rest: {minutes} min",
+  "backgroundTimerInfo": "Timer continues when you leave the app",
+  "selectMusic": "Select Music",
+  "niceToMeetYou": "Nice to meet you!",
+  "whatShouldICallYou": "What should I call you?",
+  "toggleMode": "Toggle Mode",
+  "mute": "Mute",
+  "unmute": "Unmute",
+  "focusTime": "Focus Time",
+  "restTime": "Rest Time",
+  "volumeControl": "Volume Control",
+  "single": "Single",
+  "repeat": "Repeat",
+  "sequential": "Sequential",
+  "random": "Random",
+  "ok": "OK",
+  "showBannerAds": "Show Banner Ads",
+  "showBannerAdsDesc": "Enable to show banner ads",
+  
+  "advicePosture": "Straighten your back now! Your spine needs to be aligned with your head positioned directly over your shoulders.",
+  "adviceBreak": "Time to stand up and stretch! A 5-minute break every hour prevents long-term back problems.",
+  "adviceNeckStretch": "Your neck is stiffening. Rotate your head slowly in circles to relieve tension in your cervical spine.",
+  "adviceShoulderRoll": "Roll those shoulders back and down! Poor shoulder posture leads to upper back pain and spine misalignment.",
+  "adviceEyeRest": "Look away from your screen! The 20-20-20 rule helps not only your eyes but prevents you from hunching forward.",
+  "adviceWater": "Drink water and walk to get it! Moving regularly lubricates your spinal discs and improves posture.",
+  "adviceBreathing": "Take deep breaths from your diaphragm. Proper breathing expands your chest and straightens your spine naturally.",
+  "adviceCheckPosture": "Posture check! Is your back against the chair? Are your feet flat on the floor? Fix your position right now!",
+  "adviceStandSit": "Switch between sitting and standing! Static positions strain your spine regardless of how perfect your posture is.",
+  "adviceWrist": "Keep your wrists neutral while typing. Proper arm position helps maintain correct shoulder and spine alignment.",
+  
+  "loadingMessages": "Loading messages...",
+  "noMessagesForEmotion": "No messages for {emotion} state.",
+  "howAreYouFeeling": "How's your posture right now?",
+  "focusingRemainingTime": "Focus on your work AND your posture! {minutes} minutes left.",
+  "restingRemainingTime": "Time to stretch and align your spine! {minutes} minutes left.",
+  "focusEndingSoon": "Focus time ends soon! Prepare to stand up and stretch your back!",
+  "focusStarted": "Focus time started! Remember to keep your spine aligned!",
+  "restEndingSoon": "Stretch time ends soon! Get ready to sit properly again!",
+  "restStarted": "Time to stretch and move! Your spine needs regular movement!",
+  "loadingAdherenceFeedback": "Analyzing your posture habits...",
+  "regularBreaksGood": "Regular posture breaks prevent back problems!",
+  "adherenceHigh": "Great posture discipline today! Your spine thanks you!",
+  "adherenceMedium": "Your posture needs more attention. Remember to sit up straight more often.",
+  "adherenceLow": "Your spine is at risk! Please prioritize proper posture and regular stretching.",
+  
+  "@minutesValue": {
+    "description": "Minutes value",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@focusTimeMinutes": {
+    "description": "Focus time display",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@restTimeMinutes": {
+    "description": "Rest time display",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@appName": {
+    "description": "App name"
+  },
+  "@settings": {
+    "description": "Settings screen title"
+  },
+  "@language": {
+    "description": "Language setting item"
+  },
+  "@about": {
+    "description": "App info item"
+  },
+  "@focus": {
+    "description": "Focus mode"
+  },
+  "@rest": {
+    "description": "Rest mode"
+  },
+  "@startTimer": {
+    "description": "Start timer button"
+  },
+  "@pauseTimer": {
+    "description": "Pause timer button"
+  },
+  "@resumeTimer": {
+    "description": "Resume timer button"
+  },
+  "@stopTimer": {
+    "description": "Stop timer button"
+  },
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "@apply": {
+    "description": "Apply button"
+  },
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "@save": {
+    "description": "Save button"
+  },
+  "@name": {
+    "description": "Name input field"
+  },
+  "@enterName": {
+    "description": "Name input guidance message"
+  },
+  "@next": {
+    "description": "Next button"
+  },
+  "@continueBtnText": {
+    "description": "Continue button"
+  },
+  "@characterSelection": {
+    "description": "Character selection screen title"
+  },
+  "@selectMusic": {
+    "description": "Select music prompt"
+  },
+  "@volumeControl": {
+    "description": "Volume control dialog title"
+  },
+  "@single": {
+    "description": "Single play mode"
+  },
+  "@repeat": {
+    "description": "Repeat play mode"
+  },
+  "@sequential": {
+    "description": "Sequential play mode"
+  },
+  "@random": {
+    "description": "Random play mode"
+  },
+  "@advicePosture": {
+    "description": "Advice about sitting posture"
+  },
+  "@adviceBreak": {
+    "description": "Advice about taking breaks"
+  },
+  "@adviceNeckStretch": {
+    "description": "Advice about neck stretches"
+  },
+  "@adviceShoulderRoll": {
+    "description": "Advice about shoulder rolls"
+  },
+  "@adviceEyeRest": {
+    "description": "Advice about eye rest"
+  },
+  "@adviceWater": {
+    "description": "Advice about drinking water"
+  },
+  "@adviceBreathing": {
+    "description": "Advice about deep breathing"
+  },
+  "@adviceCheckPosture": {
+    "description": "Advice about checking posture"
+  },
+  "@adviceStandSit": {
+    "description": "Advice about alternating sitting and standing"
+  },
+  "@adviceWrist": {
+    "description": "Advice about wrist position"
+  },
+  "@ok": {
+    "description": "OK button text"
+  },
+  "@showBannerAds": {
+    "description": "Show banner ads setting"
+  },
+  "@showBannerAdsDesc": {
+    "description": "Show banner ads setting description"
+  },
+  "@loadingMessages": {
+    "description": "Text shown while loading messages"
+  },
+  "@noMessagesForEmotion": {
+    "description": "Text shown when there are no messages for a specific emotion state",
+    "placeholders": {
+      "emotion": {
+        "type": "String"
+      }
+    }
+  },
+  "@howAreYouFeeling": {
+    "description": "Default conversation message"
+  },
+  "@focusingRemainingTime": {
+    "description": "Remaining time display during focus mode",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@restingRemainingTime": {
+    "description": "Remaining time display during rest mode",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@focusEndingSoon": {
+    "description": "Message when focus time is ending soon"
+  },
+  "@focusStarted": {
+    "description": "Message when focus time starts"
+  },
+  "@restEndingSoon": {
+    "description": "Message when rest time is ending soon"
+  },
+  "@restStarted": {
+    "description": "Message when rest time starts"
+  },
+  "@loadingAdherenceFeedback": {
+    "description": "Loading adherence feedback message"
+  },
+  "@regularBreaksGood": {
+    "description": "Message encouraging regular breaks"
+  },
+  "@adherenceHigh": {
+    "description": "Feedback for high adherence rate"
+  },
+  "@adherenceMedium": {
+    "description": "Feedback for medium adherence rate"
+  },
+  "@adherenceLow": {
+    "description": "Feedback for low adherence rate"
+  },
+  "@healingFairy": {
+    "description": "Default character name"
+  },
+  "@advice": {
+    "description": "Advice button text"
+  },
+  "@focusing": {
+    "description": "Focus mode status"
+  },
+  "@resting": {
+    "description": "Rest mode status"
+  },
+  "@ready": {
+    "description": "Ready status"
+  },
+  "@fairyAdvice": {
+    "description": "Fairy advice title"
+  },
+  "@thankYou": {
+    "description": "Thank you button text"
+  },
+  "@yourSpineFairy": {
+    "description": "User's spine fairy name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "languageSelection": "Please select your language",
+  "continue": "Continue",
+  "nameInput": "Please enter your nickname",
+  "nameMissing": "Please enter your name",
+  "nameRequired": "Name is required",
+  "healingFairy": "Healing Fairy",
+  "excitedFairy": "Excited Fairy",
+  "loadingMessages": "Loading messages...",
+  "noMessagesForEmotion": "No messages for {emotion} state",
+  "@noMessagesForEmotion": {
+    "placeholders": {
+      "emotion": {
+        "type": "String",
+        "example": "happy"
+      }
+    }
+  },
+  "adviceTime": "Advice Time",
+  "settings": "Settings",
+  "backToHome": "Back to Home",
+  "darkMode": "Dark Mode",
+  "darkModeDesc": "Use dark theme",
+  "notificationSettings": "Notification Settings",
+  "allowNotifications": "Allow Notifications",
+  "notificationDesc": "For break and stretch time reminders",
+  "soundSettings": "Sound Settings",
+  "soundEffects": "Sound Effects",
+  "soundEffectsDesc": "Sounds for timers and alerts",
+  "backgroundMusic": "Background Music",
+  "backgroundMusicDesc": "Background music for meditation and focus",
+  "languageSettings": "Language Settings",
+  "selectLanguage": "Select Language",
+  "characterSettings": "Character Settings",
+  "resetProgress": "Reset Progress",
+  "resetProgressConfirm": "Are you sure you want to reset all progress and timer history?",
+  "contactUs": "Contact Us",
+  "contactUsDesc": "Have questions or feedback?",
+  "aboutApp": "About App",
+  "aboutAppDesc": "Version and information",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  "logout": "Logout",
+  "logoutConfirm": "Are you sure you want to logout?",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "yes": "Yes",
+  "no": "No",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "ok": "OK",
+  "close": "Close",
+  "back": "Back",
+  "search": "Search",
+  "filter": "Filter",
+  "sort": "Sort",
+  "add": "Add",
+  "remove": "Remove",
+  "clear": "Clear",
+  "selectAll": "Select All",
+  "deselectAll": "Deselect All",
+  "resetToDefaults": "Reset to Defaults",
+  "loading": "Loading...",
+  "error": "An error occurred",
+  "retry": "Retry",
+  "offline": "You're offline",
+  "success": "Success!",
+  "yourSpineFairy": "{name}'s Spine Fairy",
+  "timerContinuesInBackground": "Timer continues in background",
+  "@timerContinuesInBackground": {
+    "description": "Message about timer continuing in background"
+  },
+  "continueAction": "Continue",
+  "startUsing": "Start Using",
+  "stop": "Stop",
+  "setFocusTime": "Set Focus Time",
+  "setRestTime": "Set Rest Time",
+  "frequentlyUsedTimes": "Frequently Used Times",
+  "touchReaction1": "Hey! Sit up straight right now!",
+  "touchReaction2": "I can see your posture slumping. Straighten that spine!",
+  "touchReaction3": "Stop hunching over your keyboard!",
+  "touchReaction4": "Your shoulders are rolling forward again. Pull them back!",
+  "touchReaction5": "Remember to keep your monitor at eye level!",
+  "touchReaction6": "Your neck shouldn't bend forward like that!",
+  "touchReaction7": "I'm watching your posture... it's getting worse!",
+  "touchReaction8": "Your spine will thank you for sitting properly!",
+  "touchReaction9": "That's better! Keep your back aligned.",
+  "touchReaction10": "If you don't fix your posture now, you'll regret it later! 😡",
+  "@continueAction": {
+    "description": "Continue action button"
+  },
+  "@startUsing": {
+    "description": "Start using button"
+  },
+  "@stop": {
+    "description": "Stop button"
+  },
+  "@setFocusTime": {
+    "description": "Set focus time dialog title"
+  },
+  "@setRestTime": {
+    "description": "Set rest time dialog title"
+  },
+  "@frequentlyUsedTimes": {
+    "description": "Frequently used times section"
+  },
+  "@touchReaction1": {
+    "description": "Reaction to touching character 1"
+  },
+  "@touchReaction2": {
+    "description": "Reaction to touching character 2"
+  },
+  "@touchReaction3": {
+    "description": "Reaction to touching character 3"
+  },
+  "@touchReaction4": {
+    "description": "Reaction to touching character 4"
+  },
+  "@touchReaction5": {
+    "description": "Reaction to touching character 5"
+  },
+  "@touchReaction6": {
+    "description": "Reaction to touching character 6"
+  },
+  "@touchReaction7": {
+    "description": "Reaction to touching character 7"
+  },
+  "@touchReaction8": {
+    "description": "Reaction to touching character 8"
+  },
+  "@touchReaction9": {
+    "description": "Reaction to touching character 9"
+  },
+  "@touchReaction10": {
+    "description": "Reaction to touching character 10"
+  },
+  "focusCompleteMessage": "Focus time of {minutes} minutes is complete. Time to rest!",
+  "restCompleteMessage": "Rest time of {minutes} minutes is complete. Let's focus again!",
+  "@focusCompleteMessage": {
+    "description": "Message shown when focus timer completes",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "25"
+      }
+    }
+  },
+  "@restCompleteMessage": {
+    "description": "Message shown when rest timer completes",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  }
+} 

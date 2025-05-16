@@ -1,0 +1,469 @@
+{
+  "@@locale": "zh",
+  "appTitle": "脊柱精灵",
+  "welcomeMessage": "欢迎使用脊柱精灵",
+  "selectLanguage": "选择语言",
+  "continueButton": "继续",
+  "enterName": "请输入您的名字",
+  "next": "下一步",
+  "languageSelectionTitle": "语言选择",
+  "characterSelectionTitle": "角色选择",
+  "startButton": "开始",
+  "focusMode": "专注模式",
+  "restMode": "休息模式",
+  "startFocus": "开始专注",
+  "startRest": "开始休息",
+  "settings": "设置",
+  "statistics": "统计",
+  "language": "语言",
+  "notifications": "通知",
+  "theme": "主题",
+  "about": "关于",
+  "postureTips": "姿势提示",
+  "goodbye": "再见，下次见！",
+  "userName": "用户名",
+  "changeCharacter": "更换角色",
+  "currentStreak": "当前连续",
+  "totalFocusTime": "总专注时间",
+  "restTimeTaken": "休息时间",
+  "postureCorrectionCount": "姿势纠正次数",
+  "korean": "韩语",
+  "english": "英语",
+  "japanese": "日语",
+  "chinese": "中文",
+  "characterTypeHealing": "治愈",
+  "characterTypeCute": "可爱",
+  "characterTypeEnergetic": "活力",
+  "characterTypeCool": "酷炫",
+  "characterTypeNature": "自然",
+  "characterTypeCosmic": "宇宙",
+  "characterTypeTech": "科技",
+  "save": "保存",
+  "cancel": "取消",
+  "minutes": "分钟",
+  "hours": "小时",
+  "seconds": "秒",
+  "days": "天",
+  "pauseButton": "暂停",
+  "resumeButton": "继续",
+  "resetButton": "重置",
+  "appName": "脊柱精灵",
+  "focus": "专注",
+  "rest": "休息",
+  "startTimer": "开始计时",
+  "pauseTimer": "暂停",
+  "resumeTimer": "继续",
+  "stopTimer": "停止",
+  "minutesValue": "{count}分钟",
+  "selectLanguage": "选择语言",
+  "apply": "应用",
+  "name": "名字",
+  "continueBtnText": "继续",
+  "characterSelection": "角色选择",
+  "advice": "建议",
+  "ready": "准备好了",
+  "focusing": "正在专注",
+  "resting": "正在休息",
+  "fairyAdvice": "精灵的建议",
+  "thankYou": "谢谢你！",
+  "appInfo": "应用信息",
+  "appVersion": "脊柱精灵 v1.0.0",
+  "nameInputHint": "请输入您的名字",
+  "nameRequired": "请输入名字",
+  "notificationDesc": "计时结束时接收通知",
+  "timerSettings": "计时器设置",
+  "focusTimeMins": "专注时间（分钟）",
+  "restTimeMins": "休息时间（分钟）",
+  "settingsSaved": "设置已保存",
+  "healingFairy": "治愈精灵",
+  "focusTimeMinutes": "专注：{minutes}分钟",
+  "restTimeMinutes": "休息：{minutes}分钟",
+  "backgroundTimerInfo": "离开应用后计时器仍然继续",
+  "selectMusic": "选择音乐",
+  "niceToMeetYou": "很高兴认识你！",
+  "whatShouldICallYou": "我该如何称呼你？",
+  "toggleMode": "切换模式",
+  "mute": "静音",
+  "unmute": "取消静音",
+  "focusTime": "专注时间",
+  "restTime": "休息时间",
+  "volumeControl": "音量控制",
+  "single": "单曲播放",
+  "repeat": "单曲循环",
+  "sequential": "顺序播放",
+  "random": "随机播放",
+  "ok": "确定",
+  "showBannerAds": "显示横幅广告",
+  "showBannerAdsDesc": "启用以显示横幅广告",
+  "continue": "继续",
+  
+  "advicePosture": "立即挺直腰背！你的脊椎需要与你的头部保持一条直线，头部应该直接位于肩膀上方。",
+  "adviceBreak": "是时候站起来伸展身体了！每小时休息5分钟可以预防长期脊椎问题。",
+  "adviceNeckStretch": "你的脖子正在变僵硬。缓慢转动头部，释放颈椎的紧张。",
+  "adviceShoulderRoll": "向后转动你的肩膀！不良的肩膀姿势会导致上背疼痛和脊椎错位。",
+  "adviceEyeRest": "把视线从屏幕上移开！20-20-20规则不仅有助于保护眼睛，还能防止你前倾弯腰。",
+  "adviceWater": "喝水并走动去拿水！定期活动可以润滑你的脊椎盘并改善姿势。",
+  "adviceBreathing": "用横膈膜深呼吸。正确的呼吸可以扩展胸腔，自然地拉直脊椎。",
+  "adviceCheckPosture": "姿势检查！你的背部是否靠在椅子上？你的双脚是否平放在地板上？立即纠正你的姿势！",
+  "adviceStandSit": "交替坐立！无论你的姿势多么完美，静态姿势都会对脊椎造成压力。",
+  "adviceWrist": "打字时保持手腕中立。正确的手臂位置有助于保持肩膀和脊椎对齐。",
+  "@minutesValue": {
+    "description": "分钟值",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@focusTimeMinutes": {
+    "description": "专注时间显示",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@restTimeMinutes": {
+    "description": "休息时间显示",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@ok": {
+    "description": "确定按钮文本"
+  },
+  "@showBannerAds": {
+    "description": "显示横幅广告设置"
+  },
+  "@showBannerAdsDesc": {
+    "description": "显示横幅广告设置描述"
+  },
+  "@appName": {
+    "description": "应用名称"
+  },
+  "@settings": {
+    "description": "设置屏幕标题"
+  },
+  "@language": {
+    "description": "语言设置项"
+  },
+  "@about": {
+    "description": "应用信息项"
+  },
+  "@focus": {
+    "description": "专注模式"
+  },
+  "@rest": {
+    "description": "休息模式"
+  },
+  "@startTimer": {
+    "description": "开始计时器按钮"
+  },
+  "@pauseTimer": {
+    "description": "暂停计时器按钮"
+  },
+  "@resumeTimer": {
+    "description": "恢复计时器按钮"
+  },
+  "@stopTimer": {
+    "description": "停止计时器按钮"
+  },
+  "@selectLanguage": {
+    "description": "语言选择屏幕标题"
+  },
+  "@apply": {
+    "description": "应用按钮"
+  },
+  "@cancel": {
+    "description": "取消按钮"
+  },
+  "@save": {
+    "description": "保存按钮"
+  },
+  "@name": {
+    "description": "姓名输入字段"
+  },
+  "@enterName": {
+    "description": "姓名输入引导信息"
+  },
+  "@next": {
+    "description": "下一步按钮"
+  },
+  "@continue": {
+    "description": "继续按钮"
+  },
+  "@characterSelection": {
+    "description": "角色选择屏幕标题"
+  },
+  "loadingMessages": "正在加载消息...",
+  "noMessagesForEmotion": "没有{emotion}状态的消息。",
+  "howAreYouFeeling": "你现在的姿势如何？",
+  "focusingRemainingTime": "专注于你的工作和姿势！还剩{minutes}分钟。",
+  "restingRemainingTime": "是时候伸展和对齐你的脊椎了！还剩{minutes}分钟。",
+  "focusEndingSoon": "专注时间即将结束！准备站起来伸展你的背部！",
+  "focusStarted": "专注时间开始！记得保持脊椎对齐！",
+  "restEndingSoon": "伸展时间即将结束！准备再次正确坐好！",
+  "restStarted": "是时候伸展和活动了！你的脊椎需要定期活动！",
+  "loadingAdherenceFeedback": "正在分析你的姿势习惯...",
+  "regularBreaksGood": "定期的姿势休息能预防背部问题！",
+  "adherenceHigh": "今天姿势纪律很好！你的脊椎感谢你！",
+  "adherenceMedium": "你的姿势需要更多注意。记得更频繁地挺直腰背。",
+  "adherenceLow": "你的脊椎处于危险中！请优先考虑正确的姿势和定期伸展。",
+  "@loadingMessages": {
+    "description": "加载消息时显示的文本"
+  },
+  "@noMessagesForEmotion": {
+    "description": "当没有特定情绪状态的消息时显示的文本",
+    "placeholders": {
+      "emotion": {
+        "type": "String"
+      }
+    }
+  },
+  "@howAreYouFeeling": {
+    "description": "默认对话消息"
+  },
+  "@focusingRemainingTime": {
+    "description": "专注模式期间剩余时间显示",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@restingRemainingTime": {
+    "description": "休息模式期间剩余时间显示",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@focusEndingSoon": {
+    "description": "专注时间即将结束时的消息"
+  },
+  "@focusStarted": {
+    "description": "专注时间开始时的消息"
+  },
+  "@restEndingSoon": {
+    "description": "休息时间即将结束时的消息"
+  },
+  "@restStarted": {
+    "description": "休息时间开始时的消息"
+  },
+  "@loadingAdherenceFeedback": {
+    "description": "加载坚持度反馈消息"
+  },
+  "@regularBreaksGood": {
+    "description": "鼓励定期休息的消息"
+  },
+  "@adherenceHigh": {
+    "description": "高坚持率的反馈"
+  },
+  "@adherenceMedium": {
+    "description": "中等坚持率的反馈"
+  },
+  "@adherenceLow": {
+    "description": "低坚持率的反馈"
+  },
+  "@healingFairy": {
+    "description": "默认角色名称"
+  },
+  "@advice": {
+    "description": "建议按钮文本"
+  },
+  "@focusing": {
+    "description": "专注模式状态"
+  },
+  "@resting": {
+    "description": "休息模式状态"
+  },
+  "@ready": {
+    "description": "准备状态"
+  },
+  "@fairyAdvice": {
+    "description": "精灵的建议标题"
+  },
+  "@thankYou": {
+    "description": "感谢按钮文本"
+  },
+  "@yourSpineFairy": {
+    "description": "用户的脊柱精灵名称",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "appName": "脊椎精灵",
+  "welcomeMessage": "欢迎使用脊椎精灵",
+  "languageSelection": "请选择您的语言",
+  "korean": "韩语",
+  "english": "英语",
+  "japanese": "日语",
+  "chinese": "中文",
+  "continue": "继续",
+  "nameInput": "请输入您的昵称",
+  "nameInputHint": "例如：约翰",
+  "startUsing": "开始使用",
+  "userName": "用户名",
+  "nameMissing": "请输入您的名字",
+  "nameRequired": "名字是必需的",
+  "healingFairy": "治愈精灵",
+  "excitedFairy": "兴奋的精灵",
+  "loadingMessages": "正在加载消息...",
+  "noMessagesForEmotion": "没有{emotion}状态的消息",
+  "@noMessagesForEmotion": {
+    "placeholders": {
+      "emotion": {
+        "type": "String",
+        "example": "happy"
+      }
+    }
+  },
+  "adviceTime": "建议时间",
+  "settings": "设置",
+  "backToHome": "返回首页",
+  "darkMode": "深色模式",
+  "darkModeDesc": "使用深色主题",
+  "notificationSettings": "通知设置",
+  "allowNotifications": "允许通知",
+  "notificationDesc": "休息和伸展时间提醒",
+  "soundSettings": "声音设置",
+  "soundEffects": "音效",
+  "soundEffectsDesc": "计时器和提醒音效",
+  "backgroundMusic": "背景音乐",
+  "backgroundMusicDesc": "冥想和专注的背景音乐",
+  "languageSettings": "语言设置",
+  "selectLanguage": "选择语言",
+  "characterSettings": "角色设置",
+  "resetProgress": "重置进度",
+  "resetProgressConfirm": "您确定要重置所有进度和计时器历史吗？",
+  "contactUs": "联系我们",
+  "contactUsDesc": "有问题或反馈？",
+  "aboutApp": "关于应用",
+  "aboutAppDesc": "版本和信息",
+  "privacyPolicy": "隐私政策",
+  "termsOfService": "服务条款",
+  "logout": "登出",
+  "logoutConfirm": "您确定要登出吗？",
+  "cancel": "取消",
+  "confirm": "确认",
+  "yes": "是",
+  "no": "否",
+  "save": "保存",
+  "delete": "删除",
+  "edit": "编辑",
+  "ok": "确定",
+  "close": "关闭",
+  "next": "下一步",
+  "back": "返回",
+  "search": "搜索",
+  "filter": "筛选",
+  "sort": "排序",
+  "add": "添加",
+  "remove": "移除",
+  "clear": "清除",
+  "selectAll": "全选",
+  "deselectAll": "取消全选",
+  "resetToDefaults": "重置为默认值",
+  "apply": "应用",
+  "loading": "加载中...",
+  "error": "发生错误",
+  "retry": "重试",
+  "offline": "您处于离线状态",
+  "success": "成功！",
+  "yourSpineFairy": "{name}的脊柱精灵",
+  "@yourSpineFairy": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "约翰"
+      }
+    }
+  },
+  "thankYou": "谢谢！",
+  "advice": "建议",
+  "selectMusic": "选择音乐",
+  "fairyAdvice": "精灵的建议",
+  "timerContinuesInBackground": "关闭应用后计时器继续运行",
+  "ready": "准备",
+  "focusing": "专注中",
+  "resting": "休息中",
+  "startTimer": "开始计时",
+  "stop": "停止",
+  "toggleMode": "切换模式",
+  "mute": "静音",
+  "unmute": "取消静音",
+  "focusTime": "专注时间",
+  "restTime": "休息时间",
+  "focusMode": "专注模式",
+  "restMode": "休息模式",
+  "focusTimeMinutes": "专注时间 {minutes} 分钟",
+  "@focusTimeMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "25"
+      }
+    }
+  },
+  "restTimeMinutes": "休息时间 {minutes} 分钟",
+  "@restTimeMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "minutesValue": "{minutes} 分钟",
+  "@minutesValue": {
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "setFocusTime": "设置专注时间",
+  "setRestTime": "设置休息时间",
+  "frequentlyUsedTimes": "常用时间",
+  "touchReaction1": "立刻坐直！",
+  "touchReaction2": "我看到你的姿势在下垂。挺直脊椎！",
+  "touchReaction3": "不要驼背在键盘上！",
+  "touchReaction4": "你的肩膀又向前卷曲了。向后拉！",
+  "touchReaction5": "记得保持显示器在眼睛水平位置！",
+  "touchReaction6": "你的脖子不应该那样向前弯曲！",
+  "touchReaction7": "我正在观察你的姿势...它正在变得更糟！",
+  "touchReaction8": "如果你坐姿正确，你的脊椎会感谢你！",
+  "touchReaction9": "这样更好！保持背部挺直。",
+  "touchReaction10": "如果你现在不纠正姿势，以后会后悔的！😡",
+  "continueAction": "继续操作",
+  "@continueAction": {
+    "description": "继续操作按钮"
+  },
+  "focusCompleteMessage": "专注时间 {minutes} 分钟已完成。该休息了！",
+  "restCompleteMessage": "休息时间 {minutes} 分钟已完成。让我们再次专注！",
+  
+  "@focusCompleteMessage": {
+    "description": "专注计时器完成时显示的消息",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "25"
+      }
+    }
+  },
+  "@restCompleteMessage": {
+    "description": "休息计时器完成时显示的消息",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  }
+} 

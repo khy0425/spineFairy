@@ -1,0 +1,397 @@
+{
+  "@@locale": "ja",
+  "appTitle": "背筋妖精",
+  "welcomeMessage": "背筋妖精へようこそ",
+  "selectLanguage": "言語選択",
+  "continueButton": "続ける",
+  "enterName": "お名前を入力してください",
+  "next": "次へ",
+  "languageSelectionTitle": "言語選択",
+  "characterSelectionTitle": "キャラクター選択",
+  "startButton": "開始",
+  "focusMode": "集中モード",
+  "restMode": "休憩モード",
+  "startFocus": "集中開始",
+  "startRest": "休憩開始",
+  "settings": "設定",
+  "statistics": "統計",
+  "language": "言語",
+  "notifications": "通知",
+  "theme": "テーマ",
+  "about": "情報",
+  "postureTips": "姿勢のヒント",
+  "goodbye": "さようなら、また会いましょう！",
+  "userName": "ユーザー名",
+  "changeCharacter": "キャラクター変更",
+  "currentStreak": "現在の連続記録",
+  "totalFocusTime": "総集中時間",
+  "restTimeTaken": "休憩時間",
+  "postureCorrectionCount": "姿勢矯正回数",
+  "korean": "韓国語",
+  "english": "英語",
+  "japanese": "日本語",
+  "chinese": "中国語",
+  "characterTypeHealing": "ヒーリング",
+  "characterTypeCute": "かわいい",
+  "characterTypeEnergetic": "元気",
+  "characterTypeCool": "クール",
+  "characterTypeNature": "自然",
+  "characterTypeCosmic": "宇宙",
+  "characterTypeTech": "テック",
+  "save": "保存",
+  "cancel": "キャンセル",
+  "minutes": "分",
+  "hours": "時間",
+  "seconds": "秒",
+  "days": "日",
+  "pauseButton": "一時停止",
+  "resumeButton": "再開",
+  "resetButton": "リセット",
+  "appName": "背筋妖精",
+  "focus": "集中",
+  "rest": "休憩",
+  "startTimer": "タイマー開始",
+  "pauseTimer": "一時停止",
+  "resumeTimer": "再開",
+  "stopTimer": "停止",
+  "minutesValue": "{count}分",
+  "selectLanguage": "言語選択",
+  "apply": "適用",
+  "name": "名前",
+  "continueBtnText": "続ける",
+  "characterSelection": "キャラクター選択",
+  "advice": "アドバイス",
+  "ready": "準備完了",
+  "focusing": "集中中",
+  "resting": "休憩中",
+  "fairyAdvice": "妖精のアドバイス",
+  "thankYou": "ありがとう！",
+  "appInfo": "アプリ情報",
+  "appVersion": "背筋妖精 v1.0.0",
+  "nameInputHint": "お名前を入力してください",
+  "nameRequired": "名前を入力してください",
+  "notificationDesc": "タイマー終了時に通知を受け取る",
+  "timerSettings": "タイマー設定",
+  "focusTimeMins": "集中時間（分）",
+  "restTimeMins": "休憩時間（分）",
+  "settingsSaved": "設定が保存されました",
+  "healingFairy": "ヒーリング妖精",
+  "focusTimeMinutes": "集中：{minutes}分",
+  "restTimeMinutes": "休憩：{minutes}分",
+  "backgroundTimerInfo": "アプリを離れてもタイマーは継続します",
+  "selectMusic": "音楽を選択してください",
+  "niceToMeetYou": "はじめまして！",
+  "whatShouldICallYou": "何とお呼びすればいいですか？",
+  "toggleMode": "モード切替",
+  "mute": "ミュート",
+  "unmute": "ミュート解除",
+  "focusTime": "集中時間",
+  "restTime": "休憩時間",
+  "volumeControl": "音量調整",
+  "single": "シングル再生",
+  "repeat": "リピート再生",
+  "sequential": "順次再生",
+  "random": "ランダム再生",
+  "ok": "OK",
+  "showBannerAds": "バナー広告表示",
+  "showBannerAdsDesc": "バナー広告を表示するには有効にしてください",
+  
+  "advicePosture": "今すぐ背筋を伸ばしてください！頭と脊椎が一直線になるように姿勢を正してください。",
+  "adviceBreak": "立ち上がってストレッチする時間です！1時間ごとに5分の休憩で長期的な脊椎問題を防ぎます。",
+  "adviceNeckStretch": "首が固くなっています。頭をゆっくり回して頸椎の緊張をほぐしてください。",
+  "adviceShoulderRoll": "肩を後ろに回してください！不適切な肩の姿勢は上部背中の痛みと脊椎の歪みを引き起こします。",
+  "adviceEyeRest": "画面から目を離してください！20-20-20ルールは目だけでなく、前かがみの姿勢を防ぐのにも役立ちます。",
+  "adviceWater": "水を飲みに立ち上がりましょう！定期的な動きは脊椎ディスクを潤滑し、姿勢を改善します。",
+  "adviceBreathing": "横隔膜から深く呼吸してください。正しい呼吸は胸を広げ、自然に脊椎を伸ばします。",
+  "adviceCheckPosture": "姿勢チェック！背中は椅子に付いていますか？足は床に平らに置いていますか？今すぐ姿勢を正してください！",
+  "adviceStandSit": "座ることと立つことを交互に行ってください！どんなに完璧な姿勢でも、静的な姿勢は脊椎に負担をかけます。",
+  "adviceWrist": "タイピング中は手首を中立位置に保ってください。正しい腕の位置は肩と脊椎の整列を維持するのに役立ちます。",
+  "@minutesValue": {
+    "description": "分単位の時間",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@focusTimeMinutes": {
+    "description": "集中時間表示",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@restTimeMinutes": {
+    "description": "休憩時間表示",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@ok": {
+    "description": "OKボタンのテキスト"
+  },
+  "@showBannerAds": {
+    "description": "バナー広告表示設定"
+  },
+  "@showBannerAdsDesc": {
+    "description": "バナー広告表示設定の説明"
+  },
+  "loadingMessages": "メッセージを読み込み中...",
+  "noMessagesForEmotion": "{emotion}状態のメッセージがありません。",
+  "howAreYouFeeling": "今の姿勢はどうですか？",
+  "focusingRemainingTime": "仕事と姿勢の両方に集中してください！残り{minutes}分です。",
+  "restingRemainingTime": "脊椎を伸ばしてストレッチする時間です！残り{minutes}分です。",
+  "focusEndingSoon": "集中時間がもうすぐ終わります！立ち上がって背中を伸ばす準備をしてください！",
+  "focusStarted": "集中時間が始まりました！脊椎が正しく整列していることを忘れないでください！",
+  "restEndingSoon": "ストレッチ時間がもうすぐ終わります！再び正しく座る準備をしてください！",
+  "restStarted": "ストレッチして動く時間です！脊椎には定期的な動きが必要です！",
+  "loadingAdherenceFeedback": "姿勢の習慣を分析中です...",
+  "regularBreaksGood": "定期的な姿勢休憩は背中の問題を防ぎます！",
+  "adherenceHigh": "今日は素晴らしい姿勢管理でした！脊椎があなたに感謝していますよ！",
+  "adherenceMedium": "姿勢にもっと注意が必要です。もっと頻繁に背筋を伸ばすことを忘れないでください。",
+  "adherenceLow": "脊椎が危険です！正しい姿勢と定期的なストレッチを優先してください。",
+  "yourSpineFairy": "{name}さんの背筋妖精",
+  "fairilyAdvice": "妖精のアドバイス",
+  
+  "@loadingMessages": {
+    "description": "メッセージを読み込み中に表示されるテキスト"
+  },
+  "@noMessagesForEmotion": {
+    "description": "特定の感情状態のメッセージがない場合に表示されるテキスト",
+    "placeholders": {
+      "emotion": {
+        "type": "String"
+      }
+    }
+  },
+  "@howAreYouFeeling": {
+    "description": "デフォルトの会話メッセージ"
+  },
+  "@focusingRemainingTime": {
+    "description": "集中モード中の残り時間表示",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@restingRemainingTime": {
+    "description": "休憩モード中の残り時間表示",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@focusEndingSoon": {
+    "description": "集中時間がもうすぐ終わる時のメッセージ"
+  },
+  "@focusStarted": {
+    "description": "集中時間が始まった時のメッセージ"
+  },
+  "@restEndingSoon": {
+    "description": "休憩時間がもうすぐ終わる時のメッセージ"
+  },
+  "@restStarted": {
+    "description": "休憩時間が始まった時のメッセージ"
+  },
+  "@loadingAdherenceFeedback": {
+    "description": "遵守率フィードバックを読み込み中のメッセージ"
+  },
+  "@regularBreaksGood": {
+    "description": "定期的な休憩を奨励するメッセージ"
+  },
+  "@adherenceHigh": {
+    "description": "高い遵守率に対するフィードバック"
+  },
+  "@adherenceMedium": {
+    "description": "中程度の遵守率に対するフィードバック"
+  },
+  "@adherenceLow": {
+    "description": "低い遵守率に対するフィードバック"
+  },
+  "@yourSpineFairy": {
+    "description": "ユーザー名を表示するアプリバータイトル",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@fairilyAdvice": {
+    "description": "アドバイスダイアログのタイトル"
+  },
+  "appName": "背骨の妖精",
+  "welcomeMessage": "背骨の妖精へようこそ",
+  "languageSelection": "言語を選択してください",
+  "korean": "韓国語",
+  "english": "英語",
+  "japanese": "日本語",
+  "chinese": "中国語",
+  "continue": "続ける",
+  "nameInput": "ニックネームを入力してください",
+  "nameInputHint": "例：ジョン",
+  "startUsing": "始める",
+  "userName": "ユーザー名",
+  "nameMissing": "名前を入力してください",
+  "nameRequired": "名前は必須です",
+  "healingFairy": "ヒーリング妖精",
+  "excitedFairy": "興奮した妖精",
+  "loadingMessages": "メッセージを読み込んでいます...",
+  "noMessagesForEmotion": "{emotion}の状態のメッセージはありません",
+  "@noMessagesForEmotion": {
+    "placeholders": {
+      "emotion": {
+        "type": "String",
+        "example": "happy"
+      }
+    }
+  },
+  "adviceTime": "アドバイスの時間",
+  "settings": "設定",
+  "backToHome": "ホームに戻る",
+  "darkMode": "ダークモード",
+  "darkModeDesc": "ダークテーマを使用する",
+  "notificationSettings": "通知設定",
+  "allowNotifications": "通知を許可する",
+  "notificationDesc": "休憩やストレッチの時間の通知",
+  "soundSettings": "サウンド設定",
+  "soundEffects": "効果音",
+  "soundEffectsDesc": "タイマーやアラートの効果音",
+  "backgroundMusic": "BGM",
+  "backgroundMusicDesc": "瞑想と集中のためのバックグラウンドミュージック",
+  "languageSettings": "言語設定",
+  "selectLanguage": "言語を選択",
+  "characterSettings": "キャラクター設定",
+  "resetProgress": "進捗をリセット",
+  "resetProgressConfirm": "すべての進捗とタイマー履歴をリセットしますか？",
+  "contactUs": "お問い合わせ",
+  "contactUsDesc": "質問やフィードバックがありますか？",
+  "aboutApp": "アプリについて",
+  "aboutAppDesc": "バージョンと情報",
+  "privacyPolicy": "プライバシーポリシー",
+  "termsOfService": "利用規約",
+  "logout": "ログアウト",
+  "logoutConfirm": "本当にログアウトしますか？",
+  "cancel": "キャンセル",
+  "confirm": "確認",
+  "yes": "はい",
+  "no": "いいえ",
+  "save": "保存",
+  "delete": "削除",
+  "edit": "編集",
+  "ok": "OK",
+  "close": "閉じる",
+  "back": "戻る",
+  "search": "検索",
+  "filter": "フィルター",
+  "sort": "並べ替え",
+  "add": "追加",
+  "remove": "削除",
+  "clear": "クリア",
+  "selectAll": "すべて選択",
+  "deselectAll": "すべて選択解除",
+  "resetToDefaults": "デフォルトにリセット",
+  "loading": "読み込み中...",
+  "error": "エラーが発生しました",
+  "retry": "再試行",
+  "offline": "オフラインです",
+  "success": "成功しました！",
+  "yourSpineFairy": "{name}の背骨の妖精",
+  "@yourSpineFairy": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "ジョン"
+      }
+    }
+  },
+  "thankYou": "ありがとう！",
+  "advice": "アドバイス",
+  "selectMusic": "音楽を選択",
+  "fairyAdvice": "妖精のアドバイス",
+  "timerContinuesInBackground": "アプリを閉じてもタイマーは続きます",
+  "ready": "準備完了",
+  "focusing": "集中中",
+  "resting": "休憩中",
+  "startTimer": "タイマー開始",
+  "stop": "停止",
+  "toggleMode": "モード切替",
+  "mute": "ミュート",
+  "unmute": "ミュート解除",
+  "focusTime": "集中時間",
+  "restTime": "休憩時間",
+  "focusMode": "集中モード",
+  "restMode": "休憩モード",
+  "focusTimeMinutes": "集中時間 {minutes}分",
+  "@focusTimeMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "25"
+      }
+    }
+  },
+  "restTimeMinutes": "休憩時間 {minutes}分",
+  "@restTimeMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "minutesValue": "{minutes}分",
+  "@minutesValue": {
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "setFocusTime": "集中時間の設定",
+  "setRestTime": "休憩時間の設定",
+  "frequentlyUsedTimes": "よく使う時間",
+  "touchReaction1": "今すぐ背筋を伸ばしてください！",
+  "touchReaction2": "姿勢が崩れています。脊椎をまっすぐにしてください！",
+  "touchReaction3": "キーボードの上に前かがみにならないでください！",
+  "touchReaction4": "肩がまた前に丸まっていますよ。後ろに引いてください！",
+  "touchReaction5": "モニターを目の高さに合わせることを忘れないでください！",
+  "touchReaction6": "首がそのように前に曲がってはいけません！",
+  "touchReaction7": "あなたの姿勢を見ています...どんどん悪くなっていますよ！",
+  "touchReaction8": "正しい姿勢で座れば、脊椎が感謝するでしょう！",
+  "touchReaction9": "そうそう、いいですね！背中をまっすぐに保ってください。",
+  "touchReaction10": "今すぐ姿勢を直さないと、後で後悔することになりますよ！😡",
+  "@fairyAdvice": {
+    "description": "妖精のアドバイスタイトル"
+  },
+  "continueAction": "続行する",
+  "@continueAction": {
+    "description": "続行アクションボタン"
+  },
+  "focusCompleteMessage": "集中時間 {minutes} 分が完了しました。休憩しましょう！",
+  "restCompleteMessage": "休憩時間 {minutes} 分が完了しました。また集中しましょう！",
+  
+  "@focusCompleteMessage": {
+    "description": "集中タイマー完了時に表示されるメッセージ",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "25"
+      }
+    }
+  },
+  "@restCompleteMessage": {
+    "description": "休憩タイマー完了時に表示されるメッセージ",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  }
+} 

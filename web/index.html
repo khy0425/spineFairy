@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="spin_fairy">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>spin_fairy</title>
+  <link rel="manifest" href="manifest.json">
+  
+  <!-- 웹 알림 기능을 위한 JavaScript 코드 -->
+  <script>
+    // 웹 알림 표시 함수
+    function showWebNotification(title, body, requireInteraction) {
+      // 웹 알림 권한 확인 및 요청
+      if (!("Notification" in window)) {
+        console.log("이 브라우저는 알림을 지원하지 않습니다.");
+        return;
+      }
+
+      // 알림 권한이 있으면 알림 표시
+      if (Notification.permission === "granted") {
+        createNotification(title, body, requireInteraction);
+      } 
+      // 권한이 거부된 상태가 아니면 권한 요청
+      else if (Notification.permission !== "denied") {
+        Notification.requestPermission().then(function (permission) {
+          if (permission === "granted") {
+            createNotification(title, body, requireInteraction);
+          }
+        });
+      }
+    }
+
+    // 알림 생성 함수
+    function createNotification(title, body, requireInteraction) {
+      var notification = new Notification(title, {
+        body: body,
+        icon: "icons/Icon-192.png",
+        requireInteraction: requireInteraction,
+        vibrate: [200, 100, 200]
+      });
+      
+      // 알림 클릭 시 앱으로 포커스
+      notification.onclick = function() {
+        window.focus();
+        notification.close();
+      };
+      
+      // 30초 후 자동으로 닫기 (requireInteraction이 false일 경우)
+      if (!requireInteraction) {
+        setTimeout(function() { 
+          notification.close(); 
+        }, 30000);
+      }
+    }
+
+    // Flutter JS 호출 설정 (Flutter -> JS 브릿지)
+    window.showWebNotification = showWebNotification;
+  </script>
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

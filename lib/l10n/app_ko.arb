@@ -1,0 +1,490 @@
+{
+  "@@locale": "ko",
+  "appTitle": "척추요정",
+  "welcomeMessage": "척추요정에 오신 것을 환영합니다",
+  "selectLanguage": "언어를 선택하세요",
+  "continueButton": "계속하기",
+  "enterName": "이름을 입력하세요",
+  "next": "다음",
+  "languageSelectionTitle": "언어 선택",
+  "characterSelectionTitle": "캐릭터 선택",
+  "startButton": "시작하기",
+  "focusMode": "집중 모드",
+  "restMode": "휴식 모드",
+  "startFocus": "집중 시작",
+  "startRest": "휴식 시작",
+  "settings": "설정",
+  "statistics": "통계",
+  "language": "언어",
+  "notifications": "알림",
+  "theme": "테마",
+  "about": "정보",
+  "postureTips": "자세 교정 팁",
+  "goodbye": "안녕히 가세요, 다음에 또 만나요!",
+  "userName": "사용자 이름",
+  "changeCharacter": "캐릭터 변경",
+  "currentStreak": "현재 연속 기록",
+  "totalFocusTime": "총 집중 시간",
+  "restTimeTaken": "휴식 시간",
+  "postureCorrectionCount": "자세 교정 횟수",
+  "korean": "한국어",
+  "english": "영어",
+  "japanese": "일본어",
+  "chinese": "중국어",
+  "characterTypeHealing": "힐링",
+  "characterTypeCute": "귀여움",
+  "characterTypeEnergetic": "활발함",
+  "characterTypeCool": "쿨함",
+  "characterTypeNature": "자연",
+  "characterTypeCosmic": "우주",
+  "characterTypeTech": "테크",
+  "save": "저장",
+  "cancel": "취소",
+  "minutes": "분",
+  "hours": "시간",
+  "seconds": "초",
+  "days": "일",
+  "pauseButton": "일시정지",
+  "resumeButton": "계속하기",
+  "resetButton": "초기화",
+  "appName": "척추요정",
+  "focus": "집중",
+  "rest": "휴식",
+  "startTimer": "타이머 시작",
+  "pauseTimer": "일시정지",
+  "resumeTimer": "재개",
+  "stopTimer": "중지",
+  "minutesValue": "{count}분",
+  "selectLanguage": "언어 선택",
+  "apply": "적용",
+  "name": "이름",
+  "continueBtnText": "계속하기",
+  "characterSelection": "캐릭터 선택",
+  "advice": "어드바이스",
+  "ready": "준비",
+  "focusing": "집중 중",
+  "resting": "휴식 중",
+  "fairyAdvice": "척추요정의 어드바이스",
+  "thankYou": "고마워요!",
+  "appInfo": "앱 정보",
+  "appVersion": "척추요정 v1.0.0",
+  "nameInputHint": "이름을 입력하세요",
+  "nameRequired": "이름을 입력해주세요",
+  "notificationDesc": "타이머 종료 시 알림을 받습니다",
+  "timerSettings": "타이머 설정",
+  "focusTimeMins": "집중 시간 (분)",
+  "restTimeMins": "휴식 시간 (분)",
+  "settingsSaved": "설정이 저장되었습니다.",
+  "healingFairy": "힐링 요정",
+  "focusTimeMinutes": "집중 시간 {minutes}분",
+  "restTimeMinutes": "휴식 시간 {minutes}분",
+  "backgroundTimerInfo": "앱을 나가도 타이머가 계속 됩니다",
+  "selectMusic": "음악 선택",
+  "niceToMeetYou": "만나서 반가워요!",
+  "whatShouldICallYou": "제가 당신을 뭐라고 불러야 할까요?",
+  "toggleMode": "모드 전환",
+  "mute": "음소거",
+  "unmute": "음소거 해제",
+  "focusTime": "집중 시간",
+  "restTime": "휴식 시간",
+  "volumeControl": "볼륨 조절",
+  "single": "한 곡 재생",
+  "repeat": "한 곡 반복",
+  "sequential": "순차 재생",
+  "random": "무작위 재생",
+  "ok": "확인",
+  "showBannerAds": "배너 광고 표시",
+  "showBannerAdsDesc": "배너 광고를 표시하려면 활성화하세요",
+  "advicePosture": "지금 바로 허리를 펴세요! 척추가 머리와 일직선이 되어야 합니다.",
+  "adviceBreak": "일어나서 스트레칭할 시간입니다! 1시간마다 5분씩 휴식하면 장기적인 척추 문제를 예방할 수 있어요.",
+  "adviceNeckStretch": "목이 뻣뻣해지고 있어요. 머리를 천천히 돌려 목 척추의 긴장을 풀어주세요.",
+  "adviceShoulderRoll": "어깨를 뒤로 돌려주세요! 잘못된 어깨 자세는 상부 등 통증과 척추 비정렬을 유발합니다.",
+  "adviceEyeRest": "화면에서 눈을 떼세요! 20-20-20 규칙은 눈뿐만 아니라 앞으로 구부정한 자세를 방지하는 데 도움이 됩니다.",
+  "adviceWater": "물을 마시고 걸어서 가져오세요! 규칙적인 움직임은 척추 디스크를 윤활하고 자세를 개선합니다.",
+  "adviceBreathing": "횡격막에서 깊게 숨을 쉬세요. 올바른 호흡은 가슴을 확장시키고 자연스럽게 척추를 펴줍니다.",
+  "adviceCheckPosture": "자세 체크! 등이 의자에 닿아 있나요? 발이 바닥에 평평하게 놓여 있나요? 지금 바로 자세를 고치세요!",
+  "adviceStandSit": "앉았다 일어서기를 번갈아가며 하세요! 아무리 완벽한 자세라도 정적인 자세는 척추에 부담을 줍니다.",
+  "adviceWrist": "타이핑할 때 손목을 중립 상태로 유지하세요. 올바른 팔 위치는 어깨와 척추 정렬을 유지하는 데 도움이 됩니다.",
+  "@minutesValue": {
+    "description": "분 단위 시간",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@focusTimeMinutes": {
+    "description": "집중 시간 표시",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@restTimeMinutes": {
+    "description": "휴식 시간 표시",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@appName": {
+    "description": "앱 이름"
+  },
+  "@settings": {
+    "description": "설정 화면 제목"
+  },
+  "@language": {
+    "description": "언어 설정 항목"
+  },
+  "@about": {
+    "description": "앱 정보 항목"
+  },
+  "@focus": {
+    "description": "집중 모드"
+  },
+  "@rest": {
+    "description": "휴식 모드"
+  },
+  "@startTimer": {
+    "description": "타이머 시작 버튼"
+  },
+  "@pauseTimer": {
+    "description": "타이머 일시정지 버튼"
+  },
+  "@resumeTimer": {
+    "description": "타이머 재개 버튼"
+  },
+  "@stopTimer": {
+    "description": "타이머 중지 버튼"
+  },
+  "@selectLanguage": {
+    "description": "언어 선택 화면 제목"
+  },
+  "@apply": {
+    "description": "적용 버튼"
+  },
+  "@cancel": {
+    "description": "취소 버튼"
+  },
+  "@save": {
+    "description": "저장 버튼"
+  },
+  "@name": {
+    "description": "이름 입력 필드"
+  },
+  "@enterName": {
+    "description": "이름 입력 안내 메시지"
+  },
+  "@next": {
+    "description": "다음 버튼"
+  },
+  "@continueBtnText": {
+    "description": "계속하기 버튼"
+  },
+  "@characterSelection": {
+    "description": "캐릭터 선택 화면 제목"
+  },
+  "@advicePosture": {
+    "description": "앉는 자세에 대한 조언"
+  },
+  "@adviceBreak": {
+    "description": "휴식 취하기에 대한 조언"
+  },
+  "@adviceNeckStretch": {
+    "description": "목 스트레칭에 대한 조언"
+  },
+  "@adviceShoulderRoll": {
+    "description": "어깨 돌리기에 대한 조언"
+  },
+  "@adviceEyeRest": {
+    "description": "눈 휴식에 대한 조언"
+  },
+  "@adviceWater": {
+    "description": "물 마시기에 대한 조언"
+  },
+  "@adviceBreathing": {
+    "description": "심호흡에 대한 조언"
+  },
+  "@adviceCheckPosture": {
+    "description": "자세 확인에 대한 조언"
+  },
+  "@adviceStandSit": {
+    "description": "앉기와 서기 번갈아 하기에 대한 조언"
+  },
+  "@adviceWrist": {
+    "description": "손목 자세에 대한 조언"
+  },
+  "@ok": {
+    "description": "확인 버튼 텍스트"
+  },
+  "@showBannerAds": {
+    "description": "배너 광고 표시 설정"
+  },
+  "@showBannerAdsDesc": {
+    "description": "배너 광고 표시 설정 설명"
+  },
+  "loadingMessages": "메시지를 불러오는 중입니다...",
+  "noMessagesForEmotion": "{emotion} 상태의 메시지가 없습니다.",
+  "howAreYouFeeling": "지금 자세는 어떠신가요?",
+  "focusingRemainingTime": "업무와 자세 모두에 집중하세요! {minutes}분 남았어요.",
+  "restingRemainingTime": "척추를 펴고 스트레칭할 시간입니다! {minutes}분 남았어요.",
+  "focusEndingSoon": "집중 시간이 곧 끝납니다! 일어나서 등을 펴는 준비를 하세요!",
+  "focusStarted": "집중 시간이 시작되었습니다! 척추 정렬을 유지하는 것을 잊지 마세요!",
+  "restEndingSoon": "스트레칭 시간이 곧 끝납니다! 다시 바르게 앉을 준비를 하세요!",
+  "restStarted": "스트레칭하고 움직일 시간입니다! 척추는 규칙적인 움직임이 필요해요!",
+  "loadingAdherenceFeedback": "자세 습관을 분석 중입니다...",
+  "regularBreaksGood": "정기적인 자세 교정 휴식은 등 문제를 예방합니다!",
+  "adherenceHigh": "오늘 자세 관리를 잘했어요! 척추가 당신에게 감사할 거예요!",
+  "adherenceMedium": "자세에 더 많은 관심이 필요해요. 더 자주 허리를 펴는 것을 기억하세요.",
+  "adherenceLow": "척추가 위험해요! 올바른 자세와 정기적인 스트레칭을 우선시해 주세요.",
+  "@loadingMessages": {
+    "description": "메시지 로딩 중 표시 텍스트"
+  },
+  "@noMessagesForEmotion": {
+    "description": "특정 감정 상태의 메시지가 없을 때 표시되는 텍스트",
+    "placeholders": {
+      "emotion": {
+        "type": "String"
+      }
+    }
+  },
+  "@howAreYouFeeling": {
+    "description": "기본 대화 메시지"
+  },
+  "@focusingRemainingTime": {
+    "description": "집중 모드 중 남은 시간 표시",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@restingRemainingTime": {
+    "description": "휴식 모드 중 남은 시간 표시",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@focusEndingSoon": {
+    "description": "집중 시간 종료 임박 메시지"
+  },
+  "@focusStarted": {
+    "description": "집중 시간 시작 메시지"
+  },
+  "@restEndingSoon": {
+    "description": "휴식 시간 종료 임박 메시지"
+  },
+  "@restStarted": {
+    "description": "휴식 시간 시작 메시지"
+  },
+  "@loadingAdherenceFeedback": {
+    "description": "준수율 피드백 로딩 메시지"
+  },
+  "@regularBreaksGood": {
+    "description": "규칙적 휴식 권장 메시지"
+  },
+  "@adherenceHigh": {
+    "description": "높은 준수율에 대한 피드백"
+  },
+  "@adherenceMedium": {
+    "description": "중간 준수율에 대한 피드백"
+  },
+  "@adherenceLow": {
+    "description": "낮은 준수율에 대한 피드백"
+  },
+  "@healingFairy": {
+    "description": "기본 캐릭터 이름"
+  },
+  "@advice": {
+    "description": "어드바이스 버튼 텍스트"
+  },
+  "@focusing": {
+    "description": "집중 모드 상태 표시"
+  },
+  "@resting": {
+    "description": "휴식 모드 상태 표시"
+  },
+  "@ready": {
+    "description": "대기 상태 표시"
+  },
+  "@fairyAdvice": {
+    "description": "어드바이스 다이얼로그 제목"
+  },
+  "@thankYou": {
+    "description": "감사 버튼 텍스트"
+  },
+  "@yourSpineFairy": {
+    "description": "사용자 이름이 표시되는 앱바 제목",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "appName": "척추요정",
+  "welcomeMessage": "척추요정에 오신 것을 환영합니다",
+  "languageSelection": "언어를 선택해주세요",
+  "korean": "한국어",
+  "english": "영어",
+  "japanese": "일본어",
+  "chinese": "중국어",
+  "continueAction": "계속하기",
+  "nameInput": "닉네임을 입력해주세요",
+  "nameInputHint": "예: 홍길동",
+  "startUsing": "시작하기",
+  "userName": "사용자명",
+  "nameMissing": "이름을 입력해주세요",
+  "nameRequired": "이름은 필수입니다",
+  "healingFairy": "힐링 요정",
+  "excitedFairy": "신나는 요정",
+  "loadingMessages": "메시지 로딩 중...",
+  "noMessagesForEmotion": "{emotion} 상태의 메시지가 없습니다",
+  "@noMessagesForEmotion": {
+    "placeholders": {
+      "emotion": {
+        "type": "String",
+        "example": "happy"
+      }
+    }
+  },
+  "adviceTime": "조언 시간",
+  "settings": "설정",
+  "backToHome": "홈으로 돌아가기",
+  "darkMode": "다크 모드",
+  "darkModeDesc": "어두운 테마 사용",
+  "notificationSettings": "알림 설정",
+  "allowNotifications": "알림 허용",
+  "notificationDesc": "휴식 및 스트레칭 시간 알림",
+  "soundSettings": "소리 설정",
+  "soundEffects": "효과음",
+  "soundEffectsDesc": "타이머 및 알림 효과음",
+  "backgroundMusic": "배경 음악",
+  "backgroundMusicDesc": "명상 및 집중을 위한 배경 음악",
+  "languageSettings": "언어 설정",
+  "selectLanguage": "언어 선택",
+  "characterSettings": "캐릭터 설정",
+  "resetProgress": "진행 상황 초기화",
+  "resetProgressConfirm": "모든 진행 상황과 타이머 기록을 초기화하시겠습니까?",
+  "contactUs": "문의하기",
+  "contactUsDesc": "질문이나 피드백이 있으신가요?",
+  "aboutApp": "앱 정보",
+  "aboutAppDesc": "버전 및 정보",
+  "privacyPolicy": "개인정보 처리방침",
+  "termsOfService": "서비스 이용약관",
+  "logout": "로그아웃",
+  "logoutConfirm": "정말 로그아웃하시겠습니까?",
+  "cancel": "취소",
+  "confirm": "확인",
+  "yes": "예",
+  "no": "아니오",
+  "save": "저장",
+  "delete": "삭제",
+  "edit": "편집",
+  "ok": "확인",
+  "close": "닫기",
+  "back": "뒤로",
+  "search": "검색",
+  "filter": "필터",
+  "sort": "정렬",
+  "add": "추가",
+  "remove": "제거",
+  "clear": "지우기",
+  "selectAll": "전체 선택",
+  "deselectAll": "전체 선택 해제",
+  "resetToDefaults": "기본값으로 재설정",
+  "loading": "로딩 중...",
+  "error": "오류가 발생했습니다",
+  "retry": "다시 시도",
+  "offline": "오프라인 상태입니다",
+  "success": "성공!",
+  "yourSpineFairy": "{name}님의 척추요정",
+  "@yourSpineFairy": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "홍길동"
+      }
+    }
+  },
+  "thankYou": "감사합니다!",
+  "advice": "조언",
+  "selectMusic": "음악 선택",
+  "fairyAdvice": "요정의 조언",
+  "timerContinuesInBackground": "앱을 나가도 타이머가 계속됩니다",
+  "ready": "준비",
+  "focusing": "집중 중",
+  "resting": "휴식 중",
+  "startTimer": "타이머 시작",
+  "stop": "중지",
+  "toggleMode": "모드 전환",
+  "mute": "음소거",
+  "unmute": "음소거 해제",
+  "focusTime": "집중 시간",
+  "restTime": "휴식 시간",
+  "focusMode": "집중 모드",
+  "restMode": "휴식 모드",
+  "focusTimeMinutes": "집중 시간 {minutes}분",
+  "@focusTimeMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "25"
+      }
+    }
+  },
+  "restTimeMinutes": "휴식 시간 {minutes}분",
+  "@restTimeMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "minutesValue": "{minutes}분",
+  "@minutesValue": {
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "setFocusTime": "집중 시간 설정",
+  "setRestTime": "휴식 시간 설정",
+  "frequentlyUsedTimes": "자주 사용하는 시간",
+  "touchReaction1": "지금 당장 허리 똑바로 펴세요!",
+  "touchReaction2": "자세가 흐트러지고 있어요. 척추 바로 세우세요!",
+  "touchReaction3": "키보드 위로 구부정하게 앉지 마세요!",
+  "touchReaction4": "어깨가 다시 앞으로 말리고 있어요. 뒤로 펴세요!",
+  "touchReaction5": "모니터를 눈높이에 맞추는 것 잊지 마세요!",
+  "touchReaction6": "목이 그렇게 앞으로 구부러지면 안 돼요!",
+  "touchReaction7": "당신의 자세를 지켜보고 있어요... 점점 나빠지고 있어요!",
+  "touchReaction8": "바른 자세로 앉으면 척추가 고마워할 거예요!",
+  "touchReaction9": "그래요, 좋아요! 등을 바르게 유지하세요.",
+  "touchReaction10": "지금 자세를 바로잡지 않으면 나중에 후회할 거예요! 😡",
+  "focusCompleteMessage": "집중 시간 {minutes}분이 완료되었습니다. 휴식할 시간입니다!",
+  "restCompleteMessage": "휴식 시간 {minutes}분이 완료되었습니다. 다시 집중할 시간입니다!",
+  "@focusCompleteMessage": {
+    "description": "집중 타이머 완료 시 표시되는 메시지",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "25"
+      }
+    }
+  },
+  "@restCompleteMessage": {
+    "description": "휴식 타이머 완료 시 표시되는 메시지",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  }
+} 
