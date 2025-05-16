@@ -1,16 +1,65 @@
-# spin_fairy
+# 척추요정 (SpinFairy)
 
-A new Flutter project.
+척추요정은 여러분의 척추 건강을 지켜주는 집중력 향상 타이머 앱입니다. 장시간 앉아서 작업하는 현대인을 위한 건강한 작업 습관 형성을 도와드립니다.
 
-## Getting Started
+## 주요 기능
 
-This project is a starting point for a Flutter application.
+- **집중/휴식 모드 전환**: 효율적인 작업과 적절한 휴식을 균형 있게 조절
+- **맞춤형 타이머 설정**: 자신에게 맞는 집중 시간과 휴식 시간을 자유롭게 설정
+- **알림 및 진동**: 타이머 종료 시 알림과 진동으로 휴식 시간 알림
+- **진동 강도 조절**: 자신의 선호도에 맞게 진동 강도 조절 가능
+- **척추 건강 알림**: 휴식 시간에 자세 교정을 위한 유용한 팁 제공
+- **다양한 환경 지원**: 모바일, 데스크톱, 웹 환경에서 모두 사용 가능
+- **다국어 지원**: 한국어, 영어, 일본어, 중국어 지원
 
-A few resources to get you started if this is your first Flutter project:
+## 설치 및 사용 방법
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 앱 설치하기
+1. Google Play 스토어에서 "척추요정"을 검색하여 다운로드
+2. 앱을 실행하고 초기 설정 진행 (이름, 캐릭터 선택 등)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 사용 방법
+1. 집중 시간과 휴식 시간 설정
+2. 시작 버튼을 클릭하여 타이머 시작
+3. 타이머가 끝나면 알림을 통해 모드 전환 (집중 ↔ 휴식)
+4. 휴식 시간에는 척추 스트레칭과 바른 자세를 유지
+
+## 개발 환경 설정
+
+이 프로젝트는 Flutter로 개발되었습니다.
+
+### 필수 요구사항
+- Flutter 3.16.0 이상
+- Dart 3.2.0 이상
+- Android Studio 또는 VS Code
+
+### 프로젝트 실행하기
+```bash
+# 프로젝트 클론
+git clone https://github.com/khy0425/spineFairy.git
+
+# 디렉토리 이동
+cd spineFairy
+
+# 종속성 설치
+flutter pub get
+
+# 개발 모드로 실행
+flutter run
+```
+
+## 기여 방법
+
+1. 이 저장소를 포크합니다
+2. 새 기능 브랜치를 생성합니다 (`git checkout -b feature/amazing-feature`)
+3. 변경사항을 커밋합니다 (`git commit -m '새로운 기능 추가'`)
+4. 브랜치에 푸시합니다 (`git push origin feature/amazing-feature`)
+5. Pull Request를 생성합니다
+
+## 개인정보처리방침
+
+개인정보처리방침은 [여기](https://khy0425.github.io/spineFairy/)에서 확인할 수 있습니다.
+
+## 라이센스
+
+이 프로젝트는 MIT 라이센스에 따라 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
