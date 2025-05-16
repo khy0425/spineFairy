@@ -1,0 +1,123 @@
+# Overview
+AI 척추요정은 장시간 앉아서 일하는 현대인을 위한 자세 교정 및 건강 습관 유도 앱이다. 사용자는 자신이 선호하는 요정 캐릭터와 함께 생활하며, 일정 시간 앉아 있으면 요정이 누워서 쉬라고 리마인드해주고, 자세나 루틴을 체크해주는 기능을 제공한다.
+
+이 앱은 특히 허리 통증을 겪는 사무직 직장인, 공부에 몰두하는 학생, 건강 루틴을 유지하고 싶은 일반 사용자에게 유용하다. 몰입감 있는 UX와 캐릭터 중심 인터랙션을 통해 지속적인 건강 루틴 유도를 목표로 한다.
+
+# Core Features
+
+## 1. 리마인드 알림 시스템
+- **What it does**: 50분 앉아 있으면 10분 누워서 쉬라고 알림을 보낸다.
+- **Why it's important**: 과도한 앉은 자세는 허리 통증을 유발할 수 있으므로 정기적인 휴식이 필요하다.
+- **How it works**: Flutter 백그라운드 서비스로 사용자의 활동 시간 측정 후 조건 만족 시 알림.
+
+## 2. 캐릭터 커스터마이징
+- **What it does**: 요정 캐릭터의 이름, 외모(이미지), 말투 및 성격 등을 설정할 수 있다.
+- **Why it's important**: 사용자 몰입감 증대와 지속적인 사용 유도.
+- **How it works**: 이미지 업로드와 메타데이터 필드 입력(이름, 말투, 성격 등).
+
+## 3. 하루 루틴 피드백
+- **What it does**: 사용자의 활동 데이터를 기반으로 매일 캐릭터가 피드백 메시지를 전달한다.
+- **Why it's important**: 데이터 기반 피드백은 사용자의 루틴 지속 여부를 인식시키고 동기부여를 제공한다.
+- **How it works**: 하루 사용 기록 분석 후, 프리셋 피드백 메시지를 조합해 캐릭터가 전달.
+
+## 4. 음성 없이 몰입 유도하는 감정 표현
+- **What it does**: TTS 없이도 텍스트, 표정 일러스트, 화면 애니메이션 등으로 캐릭터 감정 표현.
+- **Why it's important**: 몰입감과 감정 교류는 앱 지속 사용을 유도한다.
+- **How it works**: 표정별 캐릭터 일러스트, 배경 색 변화, 진동/애니메이션 등 감정 표현 기법 적용.
+
+# User Experience
+
+## Personas
+1. **허리 통증을 자주 겪는 직장인** – 정기적인 리마인드를 받고 싶어함.
+2. **공부하는 학생** – 루틴 유지 및 집중과 휴식의 밸런스 필요.
+3. **건강 루틴을 만들고 싶은 일반인** – 지속적 피드백과 정서적 동기 부여를 원함.
+
+## Key User Flows
+- 앱 최초 진입 → 요정 캐릭터 생성 → 리마인드 설정 → 루틴 시작 → 알림 및 피드백 수신
+
+## UI/UX Considerations
+- 캐릭터 중심 메인 UI
+- 귀엽고 감정이 풍부한 일러스트
+- 부드러운 애니메이션 효과
+- 비TTS 환경에서도 감정 교류 가능하도록 시각적 몰입 요소 배치
+
+# Technical Architecture
+
+## System Components
+- **Frontend**: Flutter (Android, iOS 공통)
+- **Backend**: Supabase (사용자 저장 데이터, 기록), Firebase (알림 전송), SQLite (로컬 기록)
+- **Timer Engine**: Flutter background isolate
+
+## Data Models
+- User: id, nickname, 캐릭터설정, 리마인드 시간
+- RoutineLog: date, focusedTime, restTime, feedbackMessage
+- Character: name, image_url, emotion_theme, personality_type
+
+## APIs and Integrations
+- Firebase Cloud Messaging (알림 전송)
+- Supabase REST API (기록 저장 및 조회)
+
+## Infrastructure
+- Firebase Hosting (이미지 스토리지)
+- Supabase (DB 및 인증)
+- Optional: Lottie 애니메이션을 통한 감정 표현
+
+# Development Roadmap
+
+## MVP Requirements
+- 기본 캐릭터 선택 및 이름 설정
+- 50분 타이머 + 리마인드 알림
+- 하루 루틴 기록 저장 및 요정 피드백 메시지
+- 감정 표현 일러스트 세트
+- 간단한 기록 열람 화면
+
+## Future Enhancements
+- 커스텀 캐릭터 생성 기능 (이미지 업로드, 말투 편집 등)
+- 요정의 주간 루틴 요약 보고서
+- 누적 루틴 성취도 → 진화형 캐릭터
+- 소셜 기능 (친구와 비교, 공유 등)
+
+# Logical Dependency Chain
+
+1. **Foundation**
+- 사용자 데이터 모델링 (Supabase 연동)
+- 타이머 기능 구현 (Flutter background isolate)
+- 기본 캐릭터 설정 및 이미지 렌더링
+
+2. **Visible Prototype**
+- 메인 UI 및 루틴 기록 화면
+- 리마인드 알림 구현
+- 피드백 메시지 모듈
+
+3. **Polish and Personalization**
+- 감정 표현 애니메이션 추가
+- 루틴 성취도 기반 캐릭터 반응 변화
+
+4. **Advanced Features**
+- 커스텀 캐릭터 업로드
+- 주간 요약 및 비교 기능
+
+# Risks and Mitigations
+
+## Technical Challenges
+- Flutter background 작업에서 타이머 정확도 이슈 → isolate와 local notification 적절히 조합
+- 캐릭터 커스터마이징의 무한 확장 → 프리셋 기반 템플릿 + 유저 업로드 제한
+
+## MVP Scope
+- 과도한 기능 탑재 → 1:1 루틴 관리 기능에 집중하고 나머지는 이후 확장
+
+## Resource Constraints
+- 고퀄리티 일러스트 → 외부 프리셋 또는 AI 캐릭터 생성 도구 병행 활용
+- 서버비 절감 → 데이터 저장은 최대한 로컬, 알림은 Firebase로 통일
+
+# Appendix
+
+## UX 아이디어
+- 캐릭터와 대화하는 형식의 루틴 피드백 (예: “오늘도 2시간이나 앉아 있었네! 이제 좀 누워볼까?”)
+- 루틴 성공시 요정이 칭찬하는 모션
+- 실패시 실망하는 듯하지만 다정한 멘트로 유도
+
+## 이미지 리소스 방향
+- 감정별 일러스트: 기본(웃음/걱정/기쁨/졸림 등) 8종
+- 요정 테마: 힐링형, 활력형, 츤데레형 등 감정 타입 기반 선택
+
