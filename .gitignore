@@ -11,6 +11,19 @@ node_modules/
 
 # Environment variables
 .env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+*.env
+
+# API keys and secrets
+google-services.json
+GoogleService-Info.plist
+api_keys.dart
+secrets.dart
+**/lib/config/secrets.dart
 
 # Editor directories and files
 .idea
@@ -71,4 +84,14 @@ upload-keystore.jks
 
 # VsCode/VS files
 .history
-*.vsix 
+*.vsix
+
+# Cursor specific files
+.cursor/
+.roo/
+.roomodes
+.taskmasterconfig
+.windsurfrules
+
+# Translation files
+untranslated_messages.txt 
